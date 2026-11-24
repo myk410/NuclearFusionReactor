@@ -85,7 +85,7 @@ def main():
     out=ROOT/'Simulations';out.mkdir(exist_ok=True)
     (out/'Results.json').write_text(json.dumps(result,indent=2)+'\n')
     with (ROOT/'Rankings/Master.csv').open('w',newline='') as f:
-        writer=csv.writer(f);writer.writerow(['overall_rank','id','name','type','score','evidence_confidence','scientific_maturity','primary_obstacle','research_priority','status'])
+        writer=csv.writer(f,lineterminator="\n");writer.writerow(['overall_rank','id','name','type','score','evidence_confidence','scientific_maturity','primary_obstacle','research_priority','status'])
         for rank,c in enumerate(ordered(concepts,WEIGHTS),1):
             writer.writerow([rank,c['id'],c['name'],c['kind'],round(score(c,WEIGHTS),2),c['confidence'],'preliminary mechanism/component evidence',c['science'],c['potential'],c['status']])
     def table(items):

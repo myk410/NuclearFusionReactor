@@ -1,0 +1,249 @@
+{
+  "checks": "PASS: accounting identities, bounds, limiting cases, monotonicity, portfolio structure",
+  "seed": 20261124,
+  "draws_per_case": 20000,
+  "model": "Equation E001(1); synthetic independent ranges; no plasma/kinetic simulation",
+  "input_sha256": "9a9020445b6c2bc223a61de4c7af969526276b22017388d857ed31d42c933b36",
+  "threshold_scenarios": [
+    {
+      "eta_d": 0.5,
+      "eta_t": 0.4,
+      "c": 0.95,
+      "a": 0.08,
+      "r": 0,
+      "m": 1,
+      "q_min": 6.666666666666667
+    },
+    {
+      "eta_d": 0.15,
+      "eta_t": 0.4,
+      "c": 0.95,
+      "a": 0.08,
+      "r": 0,
+      "m": 1,
+      "q_min": 22.222222222222225
+    },
+    {
+      "eta_d": 0.01,
+      "eta_t": 0.4,
+      "c": 0.95,
+      "a": 0.08,
+      "r": 0,
+      "m": 1,
+      "q_min": 333.33333333333337
+    }
+  ],
+  "monte_carlo": {
+    "hypothetical_magnetic": {
+      "eta_driver_range": [
+        0.3,
+        0.7
+      ],
+      "net_over_fusion_q05": -0.09471039514007545,
+      "median": 0.13982725907365656,
+      "q95": 0.28098243124317257,
+      "positive_scenario_fraction": 0.86915
+    },
+    "hypothetical_efficient_pulsed": {
+      "eta_driver_range": [
+        0.05,
+        0.2
+      ],
+      "net_over_fusion_q05": -1.3611483922675034,
+      "median": -0.24087306274925394,
+      "q95": 0.08039645314047426,
+      "positive_scenario_fraction": 0.1522
+    },
+    "inefficient_pulsed_stress": {
+      "eta_driver_range": [
+        0.005,
+        0.015
+      ],
+      "net_over_fusion_q05": -18.398959158144084,
+      "median": -5.951510237605939,
+      "q95": -2.5899715623958675,
+      "positive_scenario_fraction": 0.0
+    }
+  },
+  "availability": {
+    "on_net_over_fusion": 0.1,
+    "off_load_over_fusion": 0.02,
+    "duty_min": 0.16666666666666669
+  },
+  "muon_screen": {
+    "N_assumed": 150,
+    "E_DT_MeV": 17.6,
+    "eta_t_assumed": 0.4,
+    "max_source_plus_aux_MeV_per_delivered_muon": 1056.0,
+    "source_cost_scenario_MeV": 5000,
+    "cycles_required_at_scenario_source_cost": 710.2272727272726
+  },
+  "weight_profiles": {
+    "base": {
+      "physics": 20,
+      "net": 20,
+      "evidence": 15,
+      "theory": 10,
+      "engineering": 10,
+      "barriers": 10,
+      "scale": 5,
+      "materials": 5,
+      "economics": 5
+    },
+    "evidence_heavy": {
+      "physics": 20,
+      "net": 15,
+      "evidence": 30,
+      "theory": 10,
+      "engineering": 5,
+      "barriers": 5,
+      "scale": 5,
+      "materials": 5,
+      "economics": 5
+    },
+    "engineering_heavy": {
+      "physics": 15,
+      "net": 15,
+      "evidence": 10,
+      "theory": 5,
+      "engineering": 25,
+      "barriers": 10,
+      "scale": 5,
+      "materials": 10,
+      "economics": 5
+    },
+    "net_heavy": {
+      "physics": 20,
+      "net": 35,
+      "evidence": 10,
+      "theory": 10,
+      "engineering": 5,
+      "barriers": 5,
+      "scale": 5,
+      "materials": 5,
+      "economics": 5
+    }
+  },
+  "profile_top_five": {
+    "base": [
+      "C001",
+      "C002",
+      "C003",
+      "C006",
+      "C004"
+    ],
+    "evidence_heavy": [
+      "C001",
+      "C002",
+      "C003",
+      "C006",
+      "C004"
+    ],
+    "engineering_heavy": [
+      "C001",
+      "C002",
+      "C003",
+      "C006",
+      "C011"
+    ],
+    "net_heavy": [
+      "C001",
+      "C002",
+      "C003",
+      "C006",
+      "C004"
+    ]
+  },
+  "weight_sensitivity": {
+    "C001": {
+      "best": 1,
+      "worst": 2,
+      "top_five_fraction": 1.0
+    },
+    "C002": {
+      "best": 1,
+      "worst": 2,
+      "top_five_fraction": 1.0
+    },
+    "C003": {
+      "best": 3,
+      "worst": 3,
+      "top_five_fraction": 1.0
+    },
+    "C004": {
+      "best": 5,
+      "worst": 6,
+      "top_five_fraction": 0.955
+    },
+    "C005": {
+      "best": 11,
+      "worst": 13,
+      "top_five_fraction": 0.0
+    },
+    "C006": {
+      "best": 4,
+      "worst": 4,
+      "top_five_fraction": 1.0
+    },
+    "C007": {
+      "best": 7,
+      "worst": 11,
+      "top_five_fraction": 0.0
+    },
+    "C008": {
+      "best": 10,
+      "worst": 13,
+      "top_five_fraction": 0.0
+    },
+    "C009": {
+      "best": 9,
+      "worst": 12,
+      "top_five_fraction": 0.0
+    },
+    "C010": {
+      "best": 8,
+      "worst": 10,
+      "top_five_fraction": 0.0
+    },
+    "C011": {
+      "best": 5,
+      "worst": 6,
+      "top_five_fraction": 0.045
+    },
+    "C012": {
+      "best": 7,
+      "worst": 8,
+      "top_five_fraction": 0.0
+    },
+    "C013": {
+      "best": 14,
+      "worst": 16,
+      "top_five_fraction": 0.0
+    },
+    "C014": {
+      "best": 17,
+      "worst": 18,
+      "top_five_fraction": 0.0
+    },
+    "C015": {
+      "best": 8,
+      "worst": 13,
+      "top_five_fraction": 0.0
+    },
+    "C016": {
+      "best": 14,
+      "worst": 17,
+      "top_five_fraction": 0.0
+    },
+    "C017": {
+      "best": 15,
+      "worst": 18,
+      "top_five_fraction": 0.0
+    },
+    "C018": {
+      "best": 14,
+      "worst": 16,
+      "top_five_fraction": 0.0
+    }
+  }
+}

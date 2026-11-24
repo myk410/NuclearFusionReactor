@@ -1,0 +1,10 @@
+# M001 — reproducible reduced studies
+
+Run `python3 ComputationalModels/analyze.py` from any directory. Standard Python 3 only. Outputs are deterministic JSON, CSV and Markdown. Physical equations are in EnergyAnalysis/Accounting.md and Physics/Foundations.md.
+
+Study A: exact on-state electrical Q_min for three analyst-selected driver-efficiency cases; no machine is assigned these parameters.
+Study B: seeded Monte Carlo uncertainty propagation through equation (1), 20,000 independent draws per case. Uniform ranges eta_t=[0.30,0.50], c=[0.85,0.98], a=[0.03,0.15], r=0, M=1; Q=[5,30]. Driver eta_d=[0.30,0.70] for a hypothetical magnetic case, [0.05,0.20] for hypothetical efficient pulsed drive, and [0.005,0.015] for an inefficient pulsed-drive stress test. These are synthetic parameter boxes, not measured posteriors, attainable designs or confidence intervals. Common Q/thermal/auxiliary draws permit paired comparisons; actual dependencies could invalidate them. Positive-draw fraction is parameter-space coverage conditional on these arbitrary ranges, not chance of success. Quantile outputs describe only that box.
+Study C: 1000 random score-weight perturbations, each base weight multiplied by uniform [0.5,1.5] then renormalized. Assess rank envelopes and top-five inclusion within plant candidates. Also use evidence-heavy, engineering-heavy and net-electric-heavy priorities. This tests weights only, not uncertain scores or missing concepts; single-point scores may dominate the uncertainty.
+Study D: screening algebra, muon yield and availability breakpoints; analytical sufficient/necessary conditions, not simulated particles. Muon source cost values and event counts used in scenarios are explicit hypothetical inputs, not measurements.
+
+Checks: energy-balance identity; limiting cases; monotonicity in Q; equal input/output with ideal recovery (no free energy); scoring bounds/weight sums; portfolio uniqueness and complete score rationale. These checks validate implementation, not physics extrapolations.

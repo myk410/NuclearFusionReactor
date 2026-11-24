@@ -139,7 +139,7 @@ Not an exhaustive bibliography. Access depth is explicit; no claim that all full
 
 - Source: https://www.pppl.gov/events/2023/pppl-colloquium-1955-2023-quantifying-progress-towards-useful-fusion-energy-lawson
 - Access: Primary-author talk page and citation identified; paper not opened; retrieval lead only
-- Supported scope: Locate original paper and 2025 update before quantitative Lawson comparisons.
+- Supported scope: Original DOI located: https://doi.org/10.1063/5.0083990; publisher open failed. Locate accessible original and 2025 update before quantitative Lawson comparisons.
 - Access date: 2026-11-24
 
 ## R021 — MIT, Tests show high-temperature superconducting magnets are ready for fusion (2024)
@@ -147,4 +147,67 @@ Not an exhaustive bibliography. Access depth is explicit; no claim that all full
 - Source: https://news.mit.edu/2024/tests-show-high-temperature-superconducting-magnets-fusion-ready-0304
 - Access: Institutional report indexed text read; linked six original papers not yet reviewed
 - Supported scope: 20 T large magnet test; component evidence, not neutron-qualified plant validation.
+- Access date: 2026-11-24
+
+## R022 — Indirect Drive ICF Collaboration, Achievement of Target Gain Larger than Unity in an Inertial Fusion Experiment. PRL 132, 065102 (2024)
+
+- Source: https://doi.org/10.1103/PhysRevLett.132.065102
+- Access: Original-paper publisher page opened; abstract/indexed result inspected, no full independent reanalysis
+- Supported scope: Target gain exceeded unity for the December 2022 indirect-drive experiment. No plant-electric claim.
+- Access date: 2026-11-24
+
+## R023 — Hillesheim, J. C. et al. Overview of the physics basis for the ARC fusion power plant. JPP 92, E69 (2026)
+
+- Source: https://doi.org/10.1017/S0022377826101706
+- Access: Original theoretical/design paper; publisher abstract and related risk text inspected
+- Supported scope: ARC V3A design projection around 1.13 GW fusion and at least 400 MW net electric. Not an achieved result. Supersedes using the 2015 ARC point design as the current design.
+- Access date: 2026-11-24
+
+## R024 — Clark, D. W. S. et al. Breeder blanket and tritium fuel cycle feasibility of the Infinity Two fusion pilot plant. JPP 91, E86 (2025)
+
+- Source: https://doi.org/10.1017/S002237782500039X
+- Access: Original design/modelling paper; abstract and blanket-results sections inspected
+- Supported scope: Low-engineering-fidelity 3D analysis gives HCPB TBR 1.30 versus DCLL 1.08; values are model outputs, not breeding measurements.
+- Access date: 2026-11-24
+
+## R025 — Knapp and coauthors, Origins and effects of mix on magnetized liner inertial fusion target performance. Physics of Plasmas 26 (2019)
+
+- Source: https://doi.org/10.1063/1.5064548
+- Access: Original-paper laboratory-hosted abstract opened; publisher full text not independently audited
+- Supported scope: Material mixing can strongly degrade performance. Sandia record has inconsistent-looking 2022 report identifier with 2019 publication date; verify bibliographic metadata before formal citation export.
+- Access date: 2026-11-24
+
+## R026 — Demonstration of a hydrodynamically equivalent burning plasma in direct-drive inertial confinement fusion. Nature Physics 20, 751–757 (2024)
+
+- Source: https://doi.org/10.1038/s41567-023-02361-4
+- Access: Original-paper indexed abstract inspected; full text blocked; publisher correction flagged but not yet read
+- Supported scope: Hydrodynamic scaling to larger hotspots is a projection, not actual direct-drive ignition in the OMEGA experiment.
+- Access date: 2026-11-24
+
+## R027 — Lidia and coauthors, Commissioning and Initial Experiments on NDCX-II. PAC2013, MOPAC19
+
+- Source: https://proceedings.jacow.org/PAC2013/papers/mopac19.pdf
+- Access: Original three-page conference report opened; abstract and introduction inspected
+- Supported scope: Pulse-compression/transport experiment, not demonstration of an integrated heavy-ion fusion driver or generating plant.
+- Access date: 2026-11-24
+
+## R028 — Frank and coauthors, Confinement performance predictions for a high field axisymmetric tandem mirror — CORRIGENDUM. JPP (2026)
+
+- Source: https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/confinement-performance-predictions-for-a-high-field-axisymmetric-tandem-mirror-corrigendum/1721170FA043DFF371E5565DBB8960DD
+- Access: Original correction opened; root-finding and conclusion sections inspected
+- Supported scope: Uncorrected solver admitted operating points without power balance. Corrected paper retains theoretical Q>5 claim with revised parameters. It is still a prediction.
+- Access date: 2026-11-24
+
+## R029 — Ashe, C. and Muldrew, S. I. The Influence of Confinement Scaling on Spherical Tokamak Power Plant Design and Performance. IEEE TPS 52 (2024)
+
+- Source: https://scientific-publications.ukaea.uk/wp-content/uploads/THE_INFLUENCE_OF_CONFINEMENT_SCALING_ON_SPHERICAL_TOKAMAK_POWER_PLANT_DESIGN_AND_PERFORMANCE.PDF
+- Access: Original seven-page paper opened; abstract and first-page discussion inspected
+- Supported scope: Systems-study sensitivity to confinement assumptions; not validation of STEP electricity production.
+- Access date: 2026-11-24
+
+## R030 — Okada, S., Kitano, K. and Goto, S. Axial Magnetic Compression of FRC Plasma. IEEJ 119, 1324–1329 (1999)
+
+- Source: https://doi.org/10.1541/ieejfms1990.119.11_1324
+- Access: Original-paper publisher abstract opened
+- Supported scope: Historical compression studies distinguish heating improvement from shortened confinement; modern proposals must test both.
 - Access date: 2026-11-24

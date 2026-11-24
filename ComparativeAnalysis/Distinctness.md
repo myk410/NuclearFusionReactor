@@ -1,6 +1,6 @@
 # Portfolio distinctness audit
 
-32 concepts: 18 plant candidates, 12 enabling interventions and 2 scientific testbeds. This is **not** 32 independent complete reactor designs. No novelty is claimed. The portfolio includes mechanisms with weak evidence to permit explicit rejection rather than silently omit them.
+33 concepts: 19 plant candidates, 12 enabling interventions and 2 scientific testbeds. This is **not** 33 independent complete reactor designs. No novelty is claimed. The portfolio includes mechanisms with weak evidence to permit explicit rejection rather than silently omit them.
 
 Tokamak and spherical tokamak differ principally in the central-column/beta constraint, and are related. Direct drive, heavy-ion drive and fast ignition differ in driver/coupling physics, but share inertial target and repetition risks. Beam-sustained and compression-driven FRCs differ in sustainment and work-recovery balance, not just shape. They must not count as statistically independent success routes.
 
@@ -36,3 +36,6 @@ Tokamak and spherical tokamak differ principally in the central-column/beta cons
 - C030 (testbed): Density–screening identifiability in loaded solids — falsifier: Reject the screening hypothesis if density and stopping alone predict held-out enhancement within uncertainty.
 - C031 (testbed): Nuclear-product and calorimetry consistency analysis — falsifier: Reject a specific nuclear interpretation when its quantitatively predicted products are absent at adequate sensitivity.
 - C032 (enabler): Whole-plant exergy and reliability co-optimization — falsifier: Fail if proposed savings disappear when heat grades, downtime and shared component constraints are enforced together.
+- C033 (plant): Indirect-drive inertial fusion with an efficient repetitive driver — falsifier: Fail if improvements in target gain cannot jointly repay driver electricity, target supply and maintenance.
+
+C033 adds the indirect-drive baseline, omitted from the first checkpoint. The omission was a coverage error, not new evidence against the earlier candidates. It differs from direct drive by a radiation-conversion stage and its coupling losses. See Rankings/Changes.md.

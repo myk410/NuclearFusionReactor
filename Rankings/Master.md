@@ -8,22 +8,23 @@ Scores are ordinal expert-style judgments made by this project, not measured pro
 |---:|---|---:|---|---|
 | 1 | [C001 — High-field D–T tokamak](../TheoreticalConcepts/C001.md) | 73.0 | moderate | Confinement, disruptions and exhaust must be acceptable simultaneously. |
 | 2 | [C002 — Optimized D–T stellarator](../TheoreticalConcepts/C002.md) | 72.5 | moderate | Energetic alpha confinement and turbulent transport at burning conditions remain extrapolations. |
-| 3 | [C003 — Spherical tokamak with protected central column](../TheoreticalConcepts/C003.md) | 65.0 | low | Stability and noninductive sustainment at high beta. |
-| 4 | [C006 — Direct-drive laser inertial fusion](../TheoreticalConcepts/C006.md) | 62.5 | low | Laser-plasma instability and illumination nonuniformity can erase coupling benefits. |
-| 5 | [C004 — Magnetized liner inertial fusion](../TheoreticalConcepts/C004.md) | 59.0 | low | Mix and instability can offset magnetic insulation. |
-| 6 | [C011 — HTS magnetic mirror with end-loss recovery](../TheoreticalConcepts/C011.md) | 58.0 | low | Loss-cone scattering, electron heat loss and kinetic stability. |
-| 7 | [C012 — Sheared-flow-stabilized Z pinch](../TheoreticalConcepts/C012.md) | 55.0 | low | Shear stabilization must persist as current and temperature increase. |
-| 8 | [C007 — Heavy-ion driven inertial fusion](../TheoreticalConcepts/C007.md) | 54.0 | low | Beam transport, focal quality and target coupling at high current. |
-| 9 | [C010 — Beam-sustained field-reversed configuration](../TheoreticalConcepts/C010.md) | 53.0 | low | Fast-ion confinement, microinstability and collisional relaxation. |
-| 10 | [C009 — Compression-driven field-reversed configuration](../TheoreticalConcepts/C009.md) | 51.5 | low | Confinement and stability while compression changes orbit scales. |
-| 11 | [C015 — Muon-catalyzed D–T fusion with complete source accounting](../TheoreticalConcepts/C015.md) | 50.5 | moderate | Insufficient useful cycles per delivered muon. |
-| 12 | [C005 — Liquid-liner magnetized target fusion](../TheoreticalConcepts/C005.md) | 50.0 | low | Target survival and symmetric compression with limited thermal conduction. |
-| 13 | [C008 — Fast-ignition inertial fusion](../TheoreticalConcepts/C008.md) | 50.0 | low | Fast-electron or ion transport may not deposit energy in the required fuel mass. |
-| 14 | [C013 — Dense plasma focus with kinetic population accounting](../TheoreticalConcepts/C013.md) | 40.5 | low | Short-lived instabilities and nonthermal ion losses. |
-| 15 | [C018 — Electrochemically loaded beam–target fusion with energy recycling](../TheoreticalConcepts/C018.md) | 40.5 | moderate | Nuclear reaction probability competes with much larger stopping losses. |
-| 16 | [C016 — Nonthermal proton–boron fusion with alpha channeling](../TheoreticalConcepts/C016.md) | 39.0 | low | Bremsstrahlung, electron–ion equilibration and phase-space control. |
-| 17 | [C017 — Photon-driven lattice fusion with cascade accounting](../TheoreticalConcepts/C017.md) | 37.0 | low | Subcritical secondary nuclear yield and interpretation of product spectra. |
-| 18 | [C014 — Inertial electrostatic confinement with space-charge control](../TheoreticalConcepts/C014.md) | 35.5 | low | Space charge, electron loss and collisional thermalization. |
+| 3 | [C033 — Indirect-drive inertial fusion with an efficient repetitive driver](../TheoreticalConcepts/C033.md) | 66.0 | low | Radiation coupling, capsule imperfections and repeatable burn propagation. |
+| 4 | [C003 — Spherical tokamak with protected central column](../TheoreticalConcepts/C003.md) | 65.0 | low | Stability and noninductive sustainment at high beta. |
+| 5 | [C006 — Direct-drive laser inertial fusion](../TheoreticalConcepts/C006.md) | 62.5 | low | Laser-plasma instability and illumination nonuniformity can erase coupling benefits. |
+| 6 | [C004 — Magnetized liner inertial fusion](../TheoreticalConcepts/C004.md) | 59.0 | low | Mix and instability can offset magnetic insulation. |
+| 7 | [C011 — HTS magnetic mirror with end-loss recovery](../TheoreticalConcepts/C011.md) | 58.0 | low | Loss-cone scattering, electron heat loss and kinetic stability. |
+| 8 | [C012 — Sheared-flow-stabilized Z pinch](../TheoreticalConcepts/C012.md) | 55.0 | low | Shear stabilization must persist as current and temperature increase. |
+| 9 | [C007 — Heavy-ion driven inertial fusion](../TheoreticalConcepts/C007.md) | 54.0 | low | Beam transport, focal quality and target coupling at high current. |
+| 10 | [C010 — Beam-sustained field-reversed configuration](../TheoreticalConcepts/C010.md) | 53.0 | low | Fast-ion confinement, microinstability and collisional relaxation. |
+| 11 | [C009 — Compression-driven field-reversed configuration](../TheoreticalConcepts/C009.md) | 51.5 | low | Confinement and stability while compression changes orbit scales. |
+| 12 | [C015 — Muon-catalyzed D–T fusion with complete source accounting](../TheoreticalConcepts/C015.md) | 50.5 | moderate | Insufficient useful cycles per delivered muon. |
+| 13 | [C005 — Liquid-liner magnetized target fusion](../TheoreticalConcepts/C005.md) | 50.0 | low | Target survival and symmetric compression with limited thermal conduction. |
+| 14 | [C008 — Fast-ignition inertial fusion](../TheoreticalConcepts/C008.md) | 50.0 | low | Fast-electron or ion transport may not deposit energy in the required fuel mass. |
+| 15 | [C013 — Dense plasma focus with kinetic population accounting](../TheoreticalConcepts/C013.md) | 40.5 | low | Short-lived instabilities and nonthermal ion losses. |
+| 16 | [C018 — Electrochemically loaded beam–target fusion with energy recycling](../TheoreticalConcepts/C018.md) | 40.5 | moderate | Nuclear reaction probability competes with much larger stopping losses. |
+| 17 | [C016 — Nonthermal proton–boron fusion with alpha channeling](../TheoreticalConcepts/C016.md) | 39.0 | low | Bremsstrahlung, electron–ion equilibration and phase-space control. |
+| 18 | [C017 — Photon-driven lattice fusion with cascade accounting](../TheoreticalConcepts/C017.md) | 37.0 | low | Subcritical secondary nuclear yield and interpretation of product spectra. |
+| 19 | [C014 — Inertial electrostatic confinement with space-charge control](../TheoreticalConcepts/C014.md) | 35.5 | low | Space charge, electron loss and collisional thermalization. |
 
 ## Enabling interventions and scientific testbeds
 
@@ -52,15 +53,15 @@ These use stated proxies rather than invented probability estimates. Ties are or
 
 ### Scientific plausibility (physics then theory)
 
-C001, C002, C003, C004, C006, C015, C007, C011, C012, C018, C008, C005, C009, C010, C013, C017, C014, C016
+C001, C002, C033, C003, C004, C006, C015, C007, C011, C012, C018, C008, C005, C009, C010, C013, C017, C014, C016
 
 ### Net-electric potential (net then total)
 
-C001, C002, C003, C006, C004, C011, C007, C008, C012, C010, C009, C005, C015, C013, C016, C014, C018, C017
+C001, C002, C003, C006, C033, C004, C011, C007, C008, C012, C010, C009, C005, C015, C013, C016, C014, C018, C017
 
 ### Experimental support (evidence then total)
 
-C001, C002, C003, C006, C015, C004, C012, C010, C018, C011, C009, C017, C007, C005, C008, C013, C016, C014
+C033, C001, C002, C003, C006, C015, C004, C012, C010, C018, C011, C009, C017, C007, C005, C008, C013, C016, C014
 
 ### Unconventional approaches (total score, selected family)
 
@@ -68,11 +69,11 @@ C011, C012, C015, C013, C018, C016, C017, C014
 
 ### Long-term research potential (subjective potential)
 
-C002, C021, C019, C032, C025, C024, C001, C023, C027, C028, C006, C022, C004, C011, C012, C020, C030, C009, C005, C029, C003, C026, C007, C010, C008, C016, C015, C031, C018, C013, C017, C014
+C002, C021, C019, C032, C025, C024, C001, C023, C033, C027, C028, C006, C022, C004, C011, C012, C020, C030, C009, C005, C029, C003, C026, C007, C010, C008, C016, C015, C031, C018, C013, C017, C014
 
 ### Fewest unresolved barriers (barriers score)
 
-C002, C001, C003, C006, C004, C011, C012, C007, C010, C009, C005, C015, C008, C013, C018, C016, C017, C014
+C002, C001, C003, C033, C006, C004, C011, C012, C007, C010, C009, C005, C015, C008, C013, C018, C016, C017, C014
 
 ### Impact if validated
 

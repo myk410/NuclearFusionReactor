@@ -1,0 +1,97 @@
+{
+  "status": "Executed analytic/synthetic studies; not fitted to Thunderbird or a plant",
+  "fisher_examples": {
+    "one_measurement_det": 0,
+    "equal_slope_det": 0,
+    "distinct_slope_det": 1000000
+  },
+  "counting_approximation": {
+    "rate_ratio": 1.15,
+    "baseline_counts_for_z_1_96": 367.07273175521647,
+    "baseline_counts_with_approx_80pct_power": 750.0040635044684,
+    "limitations": "Independent Poisson counts, equal duration, no background or drift. Not a replication protocol or analysis of published uncertainty."
+  },
+  "coupled_tradeoff": {
+    "baseline_x": 0.09999999999999999,
+    "conversion_only_x": 0.11899999999999995,
+    "conversion_plus_auxiliary_penalty_x": 0.08899999999999995
+  },
+  "one_score_at_a_time_rank_envelopes": {
+    "C001": {
+      "best": 1,
+      "worst": 2
+    },
+    "C002": {
+      "best": 1,
+      "worst": 2
+    },
+    "C003": {
+      "best": 3,
+      "worst": 4
+    },
+    "C004": {
+      "best": 6,
+      "worst": 7
+    },
+    "C005": {
+      "best": 11,
+      "worst": 14
+    },
+    "C006": {
+      "best": 5,
+      "worst": 5
+    },
+    "C007": {
+      "best": 8,
+      "worst": 10
+    },
+    "C008": {
+      "best": 11,
+      "worst": 14
+    },
+    "C009": {
+      "best": 10,
+      "worst": 14
+    },
+    "C010": {
+      "best": 8,
+      "worst": 11
+    },
+    "C011": {
+      "best": 6,
+      "worst": 7
+    },
+    "C012": {
+      "best": 8,
+      "worst": 10
+    },
+    "C013": {
+      "best": 15,
+      "worst": 17
+    },
+    "C014": {
+      "best": 18,
+      "worst": 19
+    },
+    "C015": {
+      "best": 11,
+      "worst": 14
+    },
+    "C016": {
+      "best": 15,
+      "worst": 17
+    },
+    "C017": {
+      "best": 18,
+      "worst": 19
+    },
+    "C018": {
+      "best": 15,
+      "worst": 17
+    },
+    "C033": {
+      "best": 3,
+      "worst": 4
+    }
+  }
+}

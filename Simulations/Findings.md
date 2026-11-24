@@ -26,10 +26,10 @@ The following are arbitrary scenario boxes, not forecasts or calibrated machine 
 
 Top-five plant IDs by priority profile:
 
-- base: C001, C002, C003, C006, C004
-- evidence_heavy: C001, C002, C003, C006, C004
-- engineering_heavy: C001, C002, C003, C006, C011
-- net_heavy: C001, C002, C003, C006, C004
+- base: C001, C002, C033, C003, C006
+- evidence_heavy: C001, C002, C033, C003, C006
+- engineering_heavy: C001, C002, C003, C033, C006
+- net_heavy: C001, C002, C003, C033, C006
 
 All individual rank envelopes and top-five frequencies are in Results.json. These frequencies reflect chosen weight perturbations, not evidence uncertainty or chance of success.
 

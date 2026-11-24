@@ -1,12 +1,24 @@
 # Nuclear Fusion Reactor
 
-A continuing scientific investigation of pathways to sustained **whole-facility net electrical energy**, including conventional and unconventional fusion and supporting technologies.
+A continuing scientific investigation of sustained **whole-facility net electrical fusion energy**, including conventional and unconventional mechanisms and plant-wide enabling technologies.
 
-This is a research repository, not a validated reactor design. Concepts and numerical scores are provisional comparisons, not demonstrated devices or probabilities of success.
+Start with [ResearchIndex](ResearchIndex.md), [ProjectStatus](ProjectStatus.md) and [Continuation](Progress/Continuation.md). [Permanent standards](AGENTS.md) and [stage acceptance gates](Research/Charter.md) govern future work.
 
-Start with [ResearchIndex](ResearchIndex.md), [ProjectStatus](ProjectStatus.md), and [Continuation](Progress/Continuation.md). Permanent standards are in [AGENTS.md](AGENTS.md).
+## Current research
+- [Preliminary plant rankings](Rankings/Master.md): high-field D–T tokamaks and optimized stellarators are close leading baselines.
+- [Executed calculations](Simulations/Findings.md) and [additional inference/tradeoff results](Simulations/InferenceAndTradeoffs.json).
+- [Initial literature synthesis](LiteratureReviews/Overview.md), [source ledger](References/Bibliography.md), [hypotheses](Research/Hypotheses.md) and [skeptical audit](ScientificCriticism/RedTeam.md).
+- [Interim synthesis](FinalReports/InterimSynthesis.md). Comprehensive final reports remain pending.
 
-## Reproduce calculations
-`python3 ComputationalModels/analyze.py`
+33 dossiers include 19 candidate plant architectures, 12 enabling interventions and two scientific testbeds. This is not 33 complete reactor designs. Scores are subjective comparisons, not probabilities. No new physical discovery or validated power plant is claimed.
 
-Standard-library-only models will write deterministic results under Simulations and Rankings. Calculations are deliberately non-operational and do not model a real reactor's plasma dynamics.
+## Reproduce
+From a Python 3 environment, with no external dependencies:
+
+```sh
+python3 ComputationalModels/analyze.py
+python3 ComputationalModels/inference_and_tradeoffs.py
+python3 ComputationalModels/verify_repository.py
+```
+
+The models write deterministic results under Simulations and Rankings. They study accounting, synthetic uncertainty, statistical identifiability and scoring, not plasma evolution or reactor operation. Input assumptions, units and limitations are explicit. No binaries, paper archives or redundant backups are required.

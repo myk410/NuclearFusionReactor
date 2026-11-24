@@ -11,7 +11,8 @@
     "refs": [
       "R006",
       "R018",
-      "R021"
+      "R021",
+      "R023"
     ],
     "scores": {
       "physics": 10,
@@ -54,7 +55,8 @@
     "falsify": "A current-drive saving fails if added transport/heating and maintenance costs are larger.",
     "refs": [
       "R007",
-      "R004"
+      "R004",
+      "R024"
     ],
     "scores": {
       "physics": 10,
@@ -97,7 +99,8 @@
     "falsify": "Discard a geometry if no central-column lifetime and breeding margin survive the space allocation.",
     "refs": [
       "R017",
-      "R004"
+      "R004",
+      "R029"
     ],
     "scores": {
       "physics": 10,
@@ -139,7 +142,8 @@
     "obstacle": "Repetitive liner delivery, chamber clearing and pulsed-power lifetime.",
     "falsify": "Reject gain extrapolation that omits measured mix or uses peak yield without consumable energy.",
     "refs": [
-      "R012"
+      "R012",
+      "R025"
     ],
     "scores": {
       "physics": 10,
@@ -225,7 +229,8 @@
     "falsify": "Fail if practical illumination tolerance and efficiency jointly imply Q below electrical threshold.",
     "refs": [
       "R001",
-      "R004"
+      "R004",
+      "R026"
     ],
     "scores": {
       "physics": 10,
@@ -268,7 +273,8 @@
     "falsify": "Fail if transported beam quality requires more wall energy than the gain advantage can repay.",
     "refs": [
       "R004",
-      "R005"
+      "R005",
+      "R027"
     ],
     "scores": {
       "physics": 10,
@@ -354,7 +360,8 @@
     "falsify": "Fail if transient improvements do not persist through a full formation-compression-reset cycle.",
     "refs": [
       "R019",
-      "R004"
+      "R004",
+      "R030"
     ],
     "scores": {
       "physics": 9,
@@ -440,7 +447,8 @@
     "falsify": "Fail if optimistic end-loss recovery is required merely to offset a non-burning plasma.",
     "refs": [
       "R014",
-      "R004"
+      "R004",
+      "R028"
     ],
     "scores": {
       "physics": 10,
@@ -1366,6 +1374,50 @@
       "scale": "Transfer between host architectures and industrial throughput remain unproven. A validated component database and integrated lifecycle engineering are required.",
       "materials": "No detailed resource or irradiation inventory is available. A validated component database and integrated lifecycle engineering are required. This is a conservative, low-confidence screening judgment.",
       "economics": "No costed plant design or LCOE model has been evaluated. A validated component database and integrated lifecycle engineering are required. Score describes qualitative cost exposure, not an economic forecast."
+    }
+  },
+  {
+    "id": "C033",
+    "name": "Indirect-drive inertial fusion with an efficient repetitive driver",
+    "kind": "plant",
+    "mechanism": "Convert external driver energy into a radiation field that compresses a fuel capsule; evaluate whether demonstrated target ignition can scale to efficient repeat operation.",
+    "math": "Q_target includes all incident driver energy; E_net=eta_t c M E_f-E_laser/eta_laser-E_target-E_aux, before availability losses.",
+    "science": "Radiation coupling, capsule imperfections and repeatable burn propagation.",
+    "obstacle": "Efficient repetitive drivers, target manufacture, optics survival and chamber reset.",
+    "falsify": "Fail if improvements in target gain cannot jointly repay driver electricity, target supply and maintenance.",
+    "refs": [
+      "R001",
+      "R004",
+      "R022"
+    ],
+    "scores": {
+      "physics": 10,
+      "net": 6,
+      "evidence": 9,
+      "theory": 8,
+      "engineering": 3,
+      "barriers": 3,
+      "scale": 5,
+      "materials": 4,
+      "economics": 4
+    },
+    "potential": 8,
+    "status": "preliminary; source and parameter audit outstanding",
+    "physics_gate": "pass: no demonstrated law violation; feasibility not established",
+    "originality": "Established research direction or project synthesis; novelty not claimed",
+    "undiscovered": "No new fundamental phenomenon required; unvalidated performance extrapolations remain",
+    "evidence_note": "Listed sources support the mechanism or adjacent experimental observations only. No complete net-electric plant demonstration is established by these sources.",
+    "confidence": "low",
+    "rationale": {
+      "physics": "The mechanism uses established physical processes; Radiation coupling, capsule imperfections and repeatable burn propagation. A high score here is compatibility, not a demonstration.",
+      "net": "Q_target includes all incident driver energy; E_net=eta_t c M E_f-E_laser/eta_laser-E_target-E_aux, before availability losses. No measured complete plant closure exists in the reviewed evidence; all balance-of-plant terms remain requirements.",
+      "evidence": "Listed sources support the mechanism or adjacent experimental observations only. No complete net-electric plant demonstration is established by these sources. Access depth is recorded in the source ledger; incomplete retrieval limits this rating.",
+      "theory": "Q_target includes all incident driver energy; E_net=eta_t c M E_f-E_laser/eta_laser-E_target-E_aux, before availability losses. This is a screening equation, not a solved integrated reactor model.",
+      "engineering": "Efficient repetitive drivers, target manufacture, optics survival and chamber reset. The assigned rating reflects remaining integration difficulty rather than laboratory component maturity alone.",
+      "barriers": "Radiation coupling, capsule imperfections and repeatable burn propagation. Efficient repetitive drivers, target manufacture, optics survival and chamber reset. Higher score means fewer or less severe unresolved barriers.",
+      "scale": "Repeatability and commercial throughput remain unproven. Efficient repetitive drivers, target manufacture, optics survival and chamber reset.",
+      "materials": "No detailed resource or irradiation inventory is available. Efficient repetitive drivers, target manufacture, optics survival and chamber reset. This is a conservative, low-confidence screening judgment.",
+      "economics": "No costed plant design or LCOE model has been evaluated. Efficient repetitive drivers, target manufacture, optics survival and chamber reset. Score describes qualitative cost exposure, not an economic forecast."
     }
   }
 ]
